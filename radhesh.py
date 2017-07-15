@@ -1,2 +1,8 @@
-x="25253"
-print(x[3:5])
+x=int(input("enter a number;"))
+if (x>0):
+	print("positive")
+elif(x<0):
+	print("negative")
+else:
+    print("zero")
+
